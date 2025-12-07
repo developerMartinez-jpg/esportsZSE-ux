@@ -1,1 +1,48 @@
+/* Colores de fondo: blanco y rosa */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff 50%, #ffb6c1 50%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #ffb6c1;
+    color: #fff;
+    padding: 20px 0;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffb6c1;
+    color: #fff;
+}
+
+footer {
+    background-color: #ffb6c1;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.intro, .features {
+    margin-bottom: 40px;
+}
