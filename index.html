@@ -1,35 +1,58 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esports ZSE</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ZSE — Official</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Bienvenidos a Esports ZSE</h1>
+  <div id="page" class="site-wrap">
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo-wrap"><img id="logoImg" src="assets/logo-placeholder.png" alt="ZSE logo"></div>
+        <div class="brand-text">
+          <h1 id="teamName">ZSE</h1>
+          <p id="tagline">Competitive Brawl Stars team — determined, experienced, and ready.</p>
+        </div>
+      </div>
+      <div class="founded">Founded: <strong>Nov 16, 2025</strong></div>
     </header>
-    <main>
-        <section class="intro">
-            <h2>Sobre nosotros</h2>
-            <p>Esta es tu copia personalizada de la web original, con tus colores favoritos.</p>
-        </section>
 
-        <section class="features">
-            <h2>Características</h2>
-            <ul>
-                <li>Diseño moderno</li>
-                <li>Fondo blanco y rosa</li>
-                <li>Página 100% funcional en GitHub Pages</li>
-            </ul>
-        </section>
+    <main class="content">
+      <section class="left card">
+        <h2 id="aboutTitle">About ZSE</h2>
+        <p id="aboutText">
+          Hello — we are <strong>ZSE</strong>, a competitive team that aims to perform at our very best. Our roster brings a lot of experience. This team was founded on <strong>November 16, 2025</strong> — but don’t be fooled by the date: we are serious competitors and we're going for everything.
+        </p>
 
-        <button onclick="alert('¡Hola! Bienvenido a Esports ZSE')">Click aquí</button>
+        <div class="roster card">
+          <h3>Main Roster</h3>
+          <img id="mainImg" src="assets/roster-placeholder.jpg" alt="Roster image">
+        </div>
+      </section>
+
+      <aside class="right">
+        <div class="card">
+          <h3>Content Creators</h3>
+          <div id="creatorsBox" class="creators">COMING SOON</div>
+        </div>
+
+        <div class="card">
+          <h3>Our Network</h3>
+          <p>Discord: <a id="discordLink" href="https://discord.gg/HgvUWuCqpj" target="_blank" rel="noopener">Join here</a></p>
+          <p>TikTok: <a id="tiktokLink" href="https://www.tiktok.com/@esportszse?_r=1&_t=ZN-921hdzI7DM6" target="_blank" rel="noopener">Follow Us</a></p>
+        </div>
+      </aside>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Esports ZSE</p>
+    <footer class="site-footer">
+      <div id="footerLeft">© ZSE — Competitive Brawl Stars Team</div>
+      <div id="footerRight">Built from template — customized for ZSE</div>
     </footer>
+  </div>
+
+  <!-- Hidden editor trigger: go to /?edit or click if you add a link -->
+  <script src="script.js"></script>
 </body>
 </html>
